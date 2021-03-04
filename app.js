@@ -32,8 +32,7 @@ play.addEventListener("click", function() {
 });
 //speel opnieuw af
 replay.addEventListener("click", function() {
-    restartSong(song);
-    
+    location.reload();
   });
 
 const restartSong = song =>{
